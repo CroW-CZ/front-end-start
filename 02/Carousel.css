@@ -1,0 +1,14 @@
+div{
+    float: left;
+}
+.img{
+    width: 108px;
+    heigth: 78px;
+    margin: 20px;
+}
+#img{
+    height: 300px;
+}
+#btn{
+    clear: both;
+}
