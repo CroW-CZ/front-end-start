@@ -1,0 +1,25 @@
+#board{
+    float: left;
+    width: 400px;
+}
+span{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.row{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}

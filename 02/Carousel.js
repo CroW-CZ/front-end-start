@@ -1,13 +1,13 @@
-
+ï»¿
 var todayPhoto = [
-    {"url":"http://media.daum.net/photo/2841","img":"http://icon.daumcdn.net/w/c/12/05/82877085750988319.jpeg","title":"&quot;¶ß¸é ³¡Àå&quot; ÃÖ°­ °ø°İÇï±â ¼º´ÉÀÌ ¼³¸¶","id":"20120516082207657"}
-    ,{"url":"http://media.daum.net/entertain/photo/gallery/?gid=100320","img":"http://icon.daumcdn.net/w/c/12/05/82876693901189319.jpeg","title":"&#39;¿À´Ã¸¸&#39; ÇÊ¸®ÇÉ »õ´ì 5°³±¹¾î ´ÉÅë ¾öÄ£µş","id":"20120516091011626"}
-    ,{"url":"http://media.daum.net/photo/4010","img":"http://icon.daumcdn.net/w/c/12/05/82876307459008319.jpeg","title":"[ºÏÇÑ °áÈ¥½Ä Ç³°æ] ½Å¶û¡¤½ÅºÎ &quot;Çàº¹ÇÕ´Ï´Ù&quot;","id":"20120516092605081"}
-    ,{"url":"http://sports.media.daum.net/general/gallery/gagsports/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81730673405131839.jpeg","title":"&#39;³»°¡ ´õ ÀßÇØ&#39; ÈÄº¸GK °æ±â ³­ÀÔÇØ ¼±¹æ","id":"20120516100608409"}
-    ,{"url":"http://sports.media.daum.net/general/gallery/0516ufc/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81728759258718839.jpeg","title":"¾çµ¿ÀÌÀÇ ÇÏÀÌÅ±¿¡ Å¸¹Ù·¹½º &#39;ÁÖÃã&#39;","id":"20120516093313331"}
-    ,{"url":"http://media.daum.net/entertain/photo/gallery/?gid=100539","img":"http://icon.daumcdn.net/w/c/12/05/81728404408992839.jpeg","title":"ÀÌ½ÂÃ¶ ¾Æ³»¿Í µş »çÁø °ø°³ &quot;»çÁÖ¿¡. .&quot;","id":"20120516093918544"}
-    ,{"url":"http://media.daum.net/photo/3899","img":"http://icon.daumcdn.net/w/c/12/05/81728227037306839.jpeg","title":"»ıÈÄ 6°³¿ù¿¡ ÇÁ¶û½º·Î ÀÔ¾çµÆ´ø ¾ÆÀÌ°¡..","id":"20120516030614331"}
-    ,{"url":"http://sports.media.daum.net/general/gallery/STARKIMYUNA/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81727815537682839.jpeg","title":"&#39;±³»ı&#39; ±è¿¬¾Æ, ½º½ÂÀÇ³¯¿¡µµ ÀÎ±âÆø¹ß","id":"20120516092003892"}
+    {"url":"http://media.daum.net/photo/2841","img":"http://icon.daumcdn.net/w/c/12/05/82877085750988319.jpeg","title":"&quot;ëœ¨ë©´ ëì¥&quot; ìµœê°• ê³µê²©í—¬ê¸° ì„±ëŠ¥ì´ ì„¤ë§ˆ","id":"20120516082207657"}
+    ,{"url":"http://media.daum.net/entertain/photo/gallery/?gid=100320","img":"http://icon.daumcdn.net/w/c/12/05/82876693901189319.jpeg","title":"&#39;ì˜¤ëŠ˜ë§Œ&#39; í•„ë¦¬í•€ ìƒˆëŒ 5ê°œêµ­ì–´ ëŠ¥í†µ ì—„ì¹œë”¸","id":"20120516091011626"}
+    ,{"url":"http://media.daum.net/photo/4010","img":"http://icon.daumcdn.net/w/c/12/05/82876307459008319.jpeg","title":"[ë¶í•œ ê²°í˜¼ì‹ í’ê²½] ì‹ ë‘Â·ì‹ ë¶€ &quot;í–‰ë³µí•©ë‹ˆë‹¤&quot;","id":"20120516092605081"}
+    ,{"url":"http://sports.media.daum.net/general/gallery/gagsports/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81730673405131839.jpeg","title":"&#39;ë‚´ê°€ ë” ì˜í•´&#39; í›„ë³´GK ê²½ê¸° ë‚œì…í•´ ì„ ë°©","id":"20120516100608409"}
+    ,{"url":"http://sports.media.daum.net/general/gallery/0516ufc/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81728759258718839.jpeg","title":"ì–‘ë™ì´ì˜ í•˜ì´í‚¥ì— íƒ€ë°”ë ˆìŠ¤ &#39;ì£¼ì¶¤&#39;","id":"20120516093313331"}
+    ,{"url":"http://media.daum.net/entertain/photo/gallery/?gid=100539","img":"http://icon.daumcdn.net/w/c/12/05/81728404408992839.jpeg","title":"ì´ìŠ¹ì²  ì•„ë‚´ì™€ ë”¸ ì‚¬ì§„ ê³µê°œ &quot;ì‚¬ì£¼ì—. .&quot;","id":"20120516093918544"}
+    ,{"url":"http://media.daum.net/photo/3899","img":"http://icon.daumcdn.net/w/c/12/05/81728227037306839.jpeg","title":"ìƒí›„ 6ê°œì›”ì— í”„ë‘ìŠ¤ë¡œ ì…ì–‘ëë˜ ì•„ì´ê°€..","id":"20120516030614331"}
+    ,{"url":"http://sports.media.daum.net/general/gallery/STARKIMYUNA/index.html","img":"http://icon.daumcdn.net/w/c/12/05/81727815537682839.jpeg","title":"&#39;êµìƒ&#39; ê¹€ì—°ì•„, ìŠ¤ìŠ¹ì˜ë‚ ì—ë„ ì¸ê¸°í­ë°œ","id":"20120516092003892"}
 ];
 
 var nowPage = 1;
@@ -44,10 +44,10 @@ var btnTpl = document.getElementById("btnTpl").innerHTML;
 display();
 
 var btn = document.getElementById("btn");
-btn.addEventListener("click", function(ev){
-    var target = ev.target.attributes.getNamedItem("id").nodeValue;
+btn.addEventListener("click", function(event){
+    var target = event.target.attributes.getNamedItem("id").nodeValue;
 
-    console.log(ev);
+    console.log(event);
     if(target === "prev"){
         if(nowPage === 1)
             nowPage = totalPage;
