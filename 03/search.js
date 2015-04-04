@@ -36,14 +36,14 @@ function displayItem(data){
 searchForm.addEventListener('submit', function() {
     pageNo = 1;
     itemList.innerHTML = '';
+    searchingKeyword = keyword.value;
 
-    if(!keyword.value) {
+    if(!searchingKeyword) {
         itemList.innerHTML = 'no result';
+        more.removeChild(moreBtn);
         return;
     }
-
-    search(keyword.value);
-    searchingKeyword = keyword.value;
+    search(searchingKeyword);
 });
 
 moreBtn.addEventListener('click', function(){
