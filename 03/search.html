@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>search</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="util.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <form id="searchForm" onsubmit="return false">
+            <input type="text" id="keyword">
+            <button type="submit" id="search">검색</button>
+        </form>
+        <div id="itemList"></div>
+        <div id="moreBtn"></div>
+    </div>
+    <script type="text/template" id="itemTemplate">
+        <% for( var i = 0; i < items.length; i++){ %>
+            <div class="item">
+                <a href="<%= items[i].link %>">
+                    <%= items[i].title %>
+                </a>
+            </div>
+        <% } %>
+    </script>
+
+    <script src="search.js"></script>
+</body>
+</html>

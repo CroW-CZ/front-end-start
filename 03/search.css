@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    width: 400px;
+}
+#searchForm{
+    text-align: center;
+}
+form{
+    margin-bottom: 10px;
+}
