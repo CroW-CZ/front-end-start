@@ -2,7 +2,7 @@
  * Created by CroW-CZ on 2015-04-03.
  */
 var apikey = '3ea3cdfdb0cb12b17cb9beaa50bcf1ae';
-var nowPage = 1;
+var pageNo = 1;
 var searchingKeyword = '';
 
 var searchForm =  document.getElementById('searchForm');
@@ -16,27 +16,37 @@ var moreBtn = document.createElement('button');
 moreBtn.innerHTML = 'show more';
 
 function search(q){
-    var url = 'https://apis.daum.net/search/web?apikey='+apikey+'&q='+q+'&output=json&result=10&pageno='+nowPage;
+    var url = 'https://apis.daum.net/search/web?apikey='+apikey+'&q='+q+'&output=json&result=10&pageno='+pageNo;
     getJSON(url, displayItem);
 }
 
 function displayItem(data){
     var html = tmpl(itemTemplate, {items : data.channel.item});
+
+    html = html.replace(/&lt;/g, '<');
+    html = html.replace(/&gt;/g, '>');
+
     itemList.innerHTML += html;
     more.appendChild(moreBtn);
-    if(nowPage >= 500){
+    if(pageNo >= 500){
         more.removeChild(moreBtn);
     }
 }
 
 searchForm.addEventListener('submit', function() {
-    nowPage = 1;
+    pageNo = 1;
     itemList.innerHTML = '';
+
+    if(!keyword.value) {
+        itemList.innerHTML = 'no result';
+        return;
+    }
+
     search(keyword.value);
     searchingKeyword = keyword.value;
 });
 
 moreBtn.addEventListener('click', function(){
-    nowPage++;
+    pageNo++;
     search(searchingKeyword);
-})
+});

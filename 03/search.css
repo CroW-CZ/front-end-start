@@ -11,6 +11,9 @@
 #searchForm{
     text-align: center;
 }
-form{
-    margin-bottom: 10px;
+#moreBtn{
+    text-align: center;
+}
+#itemList div{
+    margin: 15px 0;
 }
