@@ -8,7 +8,7 @@ function appendTile(row, color){
 }
 
 for(var i=0; i<4; i++){
-    var row = document.appendChild("div");
+    var row = document.createElement("div");
     row.setAttribute("class", "row");
     board.appendChild(row);
 
