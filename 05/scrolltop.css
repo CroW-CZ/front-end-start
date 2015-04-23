@@ -1,0 +1,14 @@
+.dummy{
+    width: 100px;
+    height: 2000px;
+    background-color: gray;
+}
+.top {
+    background: url("http://cdn1.iconfinder.com/data/icons/oxygen/48x48/actions/go-up.png");
+    display: none;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
