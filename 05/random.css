@@ -1,0 +1,11 @@
+.randBox{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#info{
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+}
